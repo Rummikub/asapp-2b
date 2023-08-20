@@ -1,14 +1,21 @@
 # asapp-2b
 
 ## Git Setup
-Open VSCode (or another text editor)
-Open the terminal
-Change the directory to where you want to download the Git Repo: 
+1. Open VSCode (or another text editor)
+2. Open the terminal
+3. Change the directory to where you want to download the Git Repo: 
 > cd "Desktop" --> if you want the folder to be downloaded onto your "Desktop"
-Clone the Git Repo:
+4. Clone the Git Repo:
 > git clone https://github.com/graceli458/asapp-2b
-Change directory into cloned repo: 
+5. Change directory into cloned repo: 
 > cd asapp-2b
+6. Checkout your branch
+> git checkout "yourname"
+7. Add gitignore file
+> touch .gitignore
+8. Create a "data" folder to hold the json file: https://github.com/asappresearch/abcd/blob/master/data/abcd_v1.1.json.gz
+9. Add "data" to .gitignore file
+> add this line to .gitignore "data"
 
 ### To add code
 1. Make sure you are in the "asapp-2b" folder on your local computer
